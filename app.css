@@ -1,0 +1,239 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 180px;
+    padding-bottom: 30px;
+}
+
+.all {
+    padding: 20px 70px;
+}
+
+.allcontents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mockup {
+    width: 55%;
+}
+
+.mock {
+    width: 100%;
+}
+
+.texts {
+    width: 45%;
+    margin-left: 70px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.register {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 35px;
+    text-decoration: none;
+}
+
+.register:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.text {
+    margin-bottom: 100px;
+}
+
+span {
+    border: 1px solid white;
+    border-radius: 45%;
+    margin: 0px 5px;
+    padding: 2px;
+}
+
+span:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+svg {
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1100px) {
+
+    .logo {
+        width: 120px;
+        padding-bottom: 20px;
+    }
+
+    .all {
+        padding: 20px 30px;
+    }
+
+    .texts {
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .register {
+        font-size: 12px;
+        border-radius: 25px;
+        padding: 4px 28px;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        background-color: white;
+        background-image: none;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 180px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+
+    .all {
+        width: 100%;
+        max-width: 350px;
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+
+    .allcontents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .mock {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .texts {
+        width: 100%;
+        margin-left: 0px;
+        color: white;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .register {
+        width: 70%;
+        background-color: white;
+        color: hsl(257, 40%, 49%);
+        font-size: 14px;
+        font-weight: 400;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 0px;
+        text-decoration: none;
+    }
+
+    .register:hover {
+        background-color: hsl(300, 69%, 71%);
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    span {
+        border: 1px solid white;
+        border-radius: 45%;
+        margin: 0px 5px;
+        padding: 2px;
+    }
+
+    span:hover {
+        background-color: hsl(300, 69%, 71%);
+    }
+
+    .icons {
+        display: flex;
+        /* align-items: flex-end; */
+        justify-content: center;
+    }
+
+    svg {
+        color: white;
+    }
+}
